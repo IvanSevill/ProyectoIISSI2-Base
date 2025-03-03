@@ -6,6 +6,7 @@ import { getDetail } from '../../api/RestaurantEndpoints'
 import ImageCard from '../../components/ImageCard'
 import TextRegular from '../../components/TextRegular'
 import TextSemiBold from '../../components/TextSemibold'
+import * as GlobalStyles from '../../styles/GlobalStyles'
 import { brandPrimary, brandPrimaryTap, brandSecondary, flashStyle, flashTextStyle } from '../../styles/GlobalStyles' //Importing classes as members to practise this importing style
 import defaultProductImage from '../../../assets/product.jpeg'
 import { API_BASE_URL } from '@env'
